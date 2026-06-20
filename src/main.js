@@ -132,7 +132,7 @@ async function run() {
     } else {
       // Set outputs for other workflow steps to use
       core.setOutput('status', formatResponse(checkedStatuses.allowed));
-      // core.setOutput('raw', checkedStatuses);
+      core.setOutput('raw', checkedStatuses);
     }
   } catch (error) {
     // Fail the workflow run if an error occurs

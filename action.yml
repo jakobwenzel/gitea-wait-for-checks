@@ -48,8 +48,8 @@ inputs:
 outputs:
   status:
     description: 'Checks Status Sumary List'
-  # raw:
-  #   description: 'Checks Status RAW List'
+  raw:
+    description: 'Checks Status RAW List'
 
 runs:
   using: node20
